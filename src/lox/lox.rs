@@ -57,7 +57,7 @@ impl Lox {
     fn run(&mut self, source: String) {
         let scanner = Scanner::new(source);
         let mut tokens: Vec<Token> = vec![];
-        
+
         if let Ok(_tokens) = scanner.scan_tokens() {
             tokens = _tokens
         } else {
