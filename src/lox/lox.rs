@@ -65,7 +65,7 @@ impl Lox {
         }
 
         for token in tokens {
-            println!("{:?}", token)
+            println!("{}", token)
         }
     }
 
